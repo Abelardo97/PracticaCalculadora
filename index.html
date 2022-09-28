@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--  CDN de FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Container -->
+<section class="container-sm" style="max-width: 500px;">    
+    <div class="container-sm p-3 my-5 border border-5 rounded">  
+        <div class="row">
+            <div class="col text-center">
+                <h1>Mi Calculadora</h1>
+            </div> 
+        </div>  
+        <!--Inputs-->  
+        <div class="row my-5 text-center">
+            <div class="col my-1">
+                <input type="tel" placeholder="Número 1" id="num1">
+            </div>  
+            <div class="col my-1">
+                <input type="text"  placeholder="Número 2" id="num2">
+            </div>
+        </div>    
+        <div class="row justify-content-center my-2">
+            <div class="col-4">
+                <input class='col' placeholder="Resultado" id='resultado' type="text">
+            </div>
+        </div>
+        
+        <!-- Botones -->
+        <div class="row my-5 text-center">
+            <div class="col my-2">
+                <button class="btn btn-primary" id="suma"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="col my-2">
+                <button class="btn btn-primary" id="resta"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div class="col my-2">
+                <button class="btn btn-primary" id="multi"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="col my-2">
+                <button class="btn btn-primary" id="divi"><i class="fa-solid fa-divide"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
